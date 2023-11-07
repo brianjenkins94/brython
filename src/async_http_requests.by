@@ -1,0 +1,13 @@
+import aiohttp;
+import asyncio;
+
+async def main() {
+    async with aiohttp.ClientSession("http://httpbin.org") as session {
+        async with session.get("/get") as response {
+            print(response.status);
+            print(await response.text());
+        }
+    }
+}
+
+asyncio.run(main());

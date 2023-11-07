@@ -7,10 +7,17 @@
     "license": "MIT",
     "scripts": {
         "postinstall": "rm -rf bython && git clone https://github.com/filipefjn/bython.git",
+        "scratch": "node --experimental-specifier-resolution=node --loader=ts-node/esm scratchpad.ts",
         "start": "./bython/scripts/bython src/main.by",
         "test": "echo \"Error: no test specified\""
     },
     "devDependencies": {
+        "@tsconfig/node-lts": "latest",
+        "@types/node": "latest",
+        "@typescript-eslint/eslint-plugin": "latest",
+        "@typescript-eslint/parser": "latest",
+        "ts-node": "latest",
+        "typescript": "latest"
     },
     "engines": {
         "node": ">=18.0.0",
