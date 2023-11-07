@@ -1,3 +1,4 @@
+bython @ file:///workspaces/brython/bython
 certifi==2023.7.22
 charset-normalizer==3.3.2
 idna==3.4
