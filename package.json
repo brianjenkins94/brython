@@ -1,0 +1,20 @@
+{
+    "name": "brython",
+    "version": "0.0.0",
+    "description": "",
+    "type": "module",
+    "author": "Brian Jenkins",
+    "license": "MIT",
+    "scripts": {
+        "postinstall": "git clone https://github.com/filipefjn/bython.git && python -m pip install bython",
+        "start": "./bython/scripts/bython src/main.by",
+        "test": "echo \"Error: no test specified\""
+    },
+    "devDependencies": {
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=8.0.0"
+    },
+    "sideEffects": false
+}
