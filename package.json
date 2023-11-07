@@ -6,7 +6,7 @@
     "author": "Brian Jenkins",
     "license": "MIT",
     "scripts": {
-        "postinstall": "git clone https://github.com/filipefjn/bython.git && python -m pip install bython",
+        "postinstall": "rm -rf bython && git clone https://github.com/filipefjn/bython.git && python -m pip install --user ./bython",
         "start": "./bython/scripts/bython src/main.by",
         "test": "echo \"Error: no test specified\""
     },
