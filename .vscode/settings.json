@@ -12,6 +12,9 @@
 		"editor.formatOnSave": true
 	},
 	"editor.formatOnSave": false,
+	"files.associations": {
+        "*.by": "python"
+    },
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
 	"javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
